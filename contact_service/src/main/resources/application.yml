@@ -1,0 +1,24 @@
+server:
+  port: 9002
+
+
+spring:
+  application:
+    name: contact-service
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+
+
+#eureka:
+#  instance:
+#    hostname: localhost
+
+
+#eureka:
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    hostname: localhost

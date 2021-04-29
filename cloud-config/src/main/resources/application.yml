@@ -1,0 +1,16 @@
+server:
+  port: 9296
+
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://Himanshi_Maurya@bitbucket.org/Himanshi_Maurya/config-server.git
+          username: Himanshi_Maurya
+          password: himanshi123@B
+          clone-on-start: true
+
+
